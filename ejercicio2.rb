@@ -1,6 +1,6 @@
 require 'date'
-# TODO: Debo hacer los handler de fechas >= a 2018-01-01
 
+# Clase contenedora de Curso, su inicio y final.
 class Course
   attr_reader :name, :start, :finish
   def initialize(name, start, finish)
@@ -65,4 +65,3 @@ puts "Cursos que comienzan antes de #{date}"
 puts course_begins_prior_to(cursos, date)
 puts "Cursos que finalizan despues de #{date}"
 puts course_ends_after_to(cursos, date)
-puts course_begins_prior_to(cursos, '2018-01-01')

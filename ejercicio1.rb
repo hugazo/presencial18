@@ -1,5 +1,6 @@
 # Ejercicio 1 Desafio Latam
 
+# Clase mesa, contiene la mesa y sus ganancias.
 class Table
   attr_reader :name, :earnings
   def initialize(name, *earnings)
